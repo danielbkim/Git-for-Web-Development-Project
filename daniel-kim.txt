@@ -1,0 +1,114 @@
+## FORKED CODEPEN URL:
+https://codepen.io/bungfoon/pen/RwoGara?editors=1100
+
+## CODEPEN HTML QUESTIONS:
+  1. What is Semantic HTML?
+    - Using HTML to structure your site in a more readable way for other users and accessibility.
+  2. What is HTML used for? 
+    - Laying down the structure of the page
+  3. What is an attribute and where do we put it?
+    - HTML attributes are placed in the opening tag of a specific element
+  4. What is the h1 tag used for? How many times should I use it on a page?
+    - It's used for the main title, you should typically only use it once
+  5. Name two tags that have required attributes
+    - `<a>` and `<link>`
+  6. What do we put in the head of our HTML document?
+    - The metadata
+  7. What is an id?
+    - It's another way of pinpointing a specific element using CSS.
+  8. What elements can I add an id to?
+    - Virtually anything that will accept an attribute
+  9. How many times can I use the same id on a page?
+    - I think the editor will let you use it as often as you want, it's just not best practice, I think.
+  10. What is a class?
+    - A class is a type of CSS selector that pinpoints any element on the page to be styled.  This is different to an idea because it's more reusable.
+  11. What elements can I add a class to?
+    - Anything that accepts one.
+  12. How many times can I use the same class on a page?
+    - As often as necessary
+  13. How do I get my link to open in a new tab?
+    - Using the `target` attribute
+  14. What is the alt attribute in the image tag used for?
+    - It's used as a backup, in case the image assets fail to load.
+  15. How do I reference an id?
+    - Using the `#`
+  16. What is the difference between a section and a div
+    - A `<section>` is more semantic and generally a group of elements, while `<div>` is similar in that it's a container but mostly for more specific groups of elements.  Sections are typically the parents of divs.
+  17. What is CSS used for?
+    - For styling your HTML
+  18. How to we select an element? Example - every h2 on the page
+    - By calling the tag name in the stylesheet, using `h2` as used in the example
+  19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    - IDs typically used for one specific thing, while classes can be reused
+  20. How do we select classes in CSS?
+    - Using a `.` before the name.  i.e. `.newDiv`
+  21. How do we select a p element with a single class of “human””?
+    - `p.human`
+  22. What is a parent child selector? When would this be useful?
+    - If you need to select something that isn't the first child of something within the parent container.  If you need to grab the third item in a list for instance.
+  23. How do you select all links within a div with the class of sidebar?
+    - `.sidebar a`
+  24. What is a pseudo selector?
+    - Signified by a `:` they incorporate user actions and how to page interacts with user inputs
+  25. What do we use the change the spacing between lines?
+    - `line-spacing`
+  26. What do we use to change the spacing between letters?
+    - `letter=spacing`
+  27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    - `text-transform:` `uppercase`, `lowercase`, `capitalize`
+  28. How do I add a 1px border around my div that is dotted and black?
+    - `border: 1px dotted black`
+  29. How do I select everything on the page?
+    - `*`
+  30. How do I write a comment in CSS?
+    - `/* */`
+  31. How do I find out what file I am in, when I am using the command line? 
+    - `pwd`
+  32. Using the command line - how do I see a list of files/folders in my current folder?
+    - `ls`
+  33. How do I remove a file via the command line? Why do I have to be careful with this?
+    - `rm`, if you use the -f flag, you delete both the files and the directory it's in, doing that could cause issues if not done properly.
+  34. Why should I use version control?
+    - To make sure multiple workstreams meet together to meet one goal as seamlessly as possible.
+  35. How often should I commit to github?
+    - Often, but typically when one piece is functional, not every time you make a change.
+  36. What is the command we would use to push our repo up to github? 
+    - `git push`
+  37. Walk me through Lambda's git flow. 
+    > 1. Fork repo from Lambda Github
+    > 2. Clone to local device
+    > 3. Checkout into a branch for your work
+    > 4. Do your work
+    > 5. Save your work
+    > 6. Commit your work and provide a clear message of changes
+    > 7. Push to your repo to the correct branch name
+
+
+## Task 3: Stretch
+Stretch Review questions: 
+    1. What is the difference between an inline element and a block element?
+  > Block elements are elements that take up its own space and each block element gets stacked on top of one another in a new line - inline means they can occupy the same space and share lines
+
+    2. What happens when an element is positioned absolutely?
+  > It's static in that place, it will not be relative to any elements on the page.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+  > Use `px`
+    
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+  > 1. `<div>` `<nav>` `<header>`
+  > 2. `<img>` `<script>`
+  > 3. `<button>`
+ 
+    5. In your own words, explain the box model. What is the fix for the box model?
+  > It's a way for developers to control how HTML elements on a page are spaced in relation to one another.  Be it through the white space between each other, the borders that separate the containers from the white space, the padding of white space within the actual element, and then the content.
+
+Stretch Git Tasks
+    - [X] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
+    - [X] Research and understand what a `merge conflict` is and how to resolve it.
+    - [X] Research the Git commands `pull`, `rebase`, `merge`. These commands will allow you to bring in changes that other developers push to the main branch.
+    - [X] Research the Git commands `reset `, `revert`, `clean`. These commands will allow you to go back and amends previous commits you have made.
+
+    - [X] Research and set up a Graphical User Interface (GUI) Git console. 
+
+    - [X] Research and setup SSH keys with GitHub, so that you do not need to input your username/password each time you push. 
